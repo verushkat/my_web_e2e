@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My Sysco Shopping - Web" configfailurepolicy="continue">
+    <test name="Checkout Tests">
+        <classes>
+            <class name="web.tests.flight.FlightReservationTest"/>
+
+        </classes>
+    </test>
+</suite>

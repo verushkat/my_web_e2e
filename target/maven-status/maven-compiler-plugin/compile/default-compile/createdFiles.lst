@@ -1,0 +1,4 @@
+web\pages\hotels\HotelReservationPage.class
+web\functions\hotels\HotelReservationFunction.class
+web\functions\fights\FightReservationFunction.class
+web\pages\flights\FlightReservationPage.class

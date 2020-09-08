@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Sysco Shopping - Web" duration-ms="5749" started-at="2020-09-05T14:00:42Z" finished-at="2020-09-05T14:00:48Z">
+    <groups>
+    </groups>
+    <test name="Checkout Tests" duration-ms="5749" started-at="2020-09-05T14:00:42Z" finished-at="2020-09-05T14:00:48Z">
+      <class name="web.tests.flight.FlightReservation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:web.tests.flight.FlightReservation@3fb6a447]" name="setUp" is-config="true" duration-ms="3080" started-at="2020-09-05T14:00:39Z" finished-at="2020-09-05T14:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClassInTestBase()[pri:0, instance:web.tests.flight.FlightReservation@3fb6a447]" name="beforeClassInTestBase" is-config="true" duration-ms="5719" started-at="2020-09-05T14:00:42Z" finished-at="2020-09-05T14:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassInTestBase -->
+        <test-method status="PASS" signature="loadURL()[pri:0, instance:web.tests.flight.FlightReservation@3fb6a447]" name="loadURL" duration-ms="2" started-at="2020-09-05T14:00:48Z" finished-at="2020-09-05T14:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadURL -->
+        <test-method status="PASS" signature="afterMethodInGUITestBase()[pri:0, instance:web.tests.flight.FlightReservation@3fb6a447]" name="afterMethodInGUITestBase" is-config="true" duration-ms="0" started-at="2020-09-05T14:00:48Z" finished-at="2020-09-05T14:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodInGUITestBase -->
+      </class> <!-- web.tests.flight.FlightReservation -->
+    </test> <!-- Checkout Tests -->
+  </suite> <!-- My Sysco Shopping - Web -->
+</testng-results>

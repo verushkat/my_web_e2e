@@ -1,0 +1,3 @@
+web\tests\flight\FlightReservation.class
+web\tests\hotels\HotelReservation.class
+web\utils\TestBase.class
