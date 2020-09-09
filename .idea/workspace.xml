@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/functions/GUIFunctionBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/PageBase.java" afterDir="false" />
+    <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="Task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/functions/heroku/HerokuAppFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/heroku/HerokuAppPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/functions/fights/FlightReservationFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/functions/fights/FlightReservationFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/functions/hotels/HotelReservationFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/functions/hotels/HotelReservationFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/web/pages/flights/FlightReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/flights/FlightReservationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/hotels/HotelReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/hotels/HotelReservationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/tests/flight/FlightReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/tests/flight/FlightReservationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/tests/hotels/HotelReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/tests/hotels/HotelReservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/utils/TestBase.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -82,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FlightReservationTest.bookAFlightForRoundTrip">
+  <component name="RunManager" selected="TestNG.HerokuAppTableVerification">
     <configuration name="FlightReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="my_web_e2e_tests" />
       <extension name="coverage">
@@ -206,6 +211,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HerokuAppTableVerification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="my_web_e2e_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.tests.flight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="web.tests.flight" />
+      <option name="MAIN_CLASS_NAME" value="web.tests.flight.HerokuAppTableVerification" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea " />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="SUITE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -228,13 +259,14 @@
       <item itemvalue="TestNG.FlightReservationTest.loadURL" />
       <item itemvalue="TestNG.FlightReservationTest" />
       <item itemvalue="TestNG.FlightReservationTest.bookAFlightForRoundTrip" />
+      <item itemvalue="TestNG.HerokuAppTableVerification" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HerokuAppTableVerification" />
         <item itemvalue="TestNG.FlightReservationTest.bookAFlightForRoundTrip" />
         <item itemvalue="TestNG.FlightReservationTest" />
         <item itemvalue="TestNG.FlightReservationTest.loadURL" />
-        <item itemvalue="TestNG.FlightReservationTest" />
         <item itemvalue="TestNG.FlightReservationTest" />
       </list>
     </recent_temporary>
@@ -252,7 +284,7 @@
       <workItem from="1599294833487" duration="32543000" />
       <workItem from="1599452143408" duration="15000" />
       <workItem from="1599541151938" duration="15452000" />
-      <workItem from="1599577742152" duration="9330000" />
+      <workItem from="1599577742152" duration="15312000" />
     </task>
     <servers />
   </component>

@@ -9,7 +9,6 @@ import web.pages.flights.FlightReservationPage;
  */
 public class FlightReservationFunction extends GUIFunctionBase {
 
-    protected WebDriver driver;
     private FlightReservationPage flightReservationPage;
 
 

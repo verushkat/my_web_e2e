@@ -9,9 +9,7 @@ import web.pages.PageBase;
 
 import java.util.List;
 
-/**
- * Created by verushkat on 9/5/2020
- */
+
 public class FlightReservationPage extends PageBase {
 
     protected WebDriver driver;

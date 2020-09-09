@@ -5,15 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
-import java.util.concurrent.TimeUnit;
-
-/**
- * Created by verushkat on 9/5/2020
- */
 public class TestBase {
 
     protected WebDriver driver;
-    private String baseURL = "https://www.goibibo.com/";
+    private String baseURL = "http://the-internet.herokuapp.com/tables";
     protected SoftAssert softAssert;
 
 
