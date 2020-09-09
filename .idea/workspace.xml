@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="" />
+    <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/functions/GUIFunctionBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/flights/FlightReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/flights/FlightReservationPage.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -38,9 +52,10 @@
   </component>
   <component name="ProjectId" id="1h5J4nnrzCEz6Gi1QoANNYlgpe8" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VideoGameProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -237,19 +252,31 @@
       <workItem from="1599294833487" duration="32543000" />
       <workItem from="1599452143408" duration="15000" />
       <workItem from="1599541151938" duration="15452000" />
+      <workItem from="1599577742152" duration="9330000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="19" />
+          <line>38</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

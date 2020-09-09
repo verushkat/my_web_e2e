@@ -5,13 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import web.pages.PageBase;
 
 import java.util.List;
 
 /**
  * Created by verushkat on 9/5/2020
  */
-public class FlightReservationPage {
+public class FlightReservationPage extends PageBase {
 
     protected WebDriver driver;
     private By roundTripBtn = By.xpath("//span[@id='roundTrip']");
@@ -24,26 +25,24 @@ public class FlightReservationPage {
     private By relativeDepartureCalendarDates = By.xpath("//following::div[@aria-disabled='false']/div[1]");
     private By flightSearchBtn = By.id("gi_search_btn");
     private By priceSortingIcon = By.xpath("//li[@id='PRICE'][1]/span");
-    private By clickFlightSelectRadioButton = By.id("I5#:I5740I51624I51624radioBtn");
-    private By clickBookButton = By.xpath("//input[@value=\"BOOK\"]");
+    private By clickFlightSelectRadioButton = By.xpath("//li[@id='PRICE'][1]//following::input[@type='radio'][1]//following::label[1]");
+    private By clickBookButton = By.xpath("//input[@value='BOOK' and @type='button']");
     private By clickRiskTripRBtn = By.id("risk-trip");
     private By searchResultsFlightDetailCard = By.xpath("//div[contains(@class,'fltHpyRsltCard')]");
 
 
     public FlightReservationPage(WebDriver driver) {
 
-        this.driver = driver;
+        super(driver);
 
     }
 
     public void clickRoundTripOption() {
 
+        waitTillElementClickable(roundTripBtn);
+        driver.findElement(roundTripBtn).click();
 
-        WebElement element = driver.findElement(roundTripBtn);
 
-        if (element.isEnabled()) {
-            element.click();
-        }
 
     }
 
@@ -142,11 +141,8 @@ public class FlightReservationPage {
     }
     public void clickFlightSelectRbn() {
 
-        WebElement  element = driver.findElement(clickFlightSelectRadioButton);
+         driver.findElement(clickFlightSelectRadioButton).click();
 
-        if(element.isEnabled()){
-            element.click();
-        }
     }
     public void clickBookButton(){
 
@@ -160,39 +156,19 @@ public class FlightReservationPage {
     }
      public void clickRiskTripRbn() {
 
-        WebElement element = driver.findElement(clickRiskTripRBtn);
 
-        if(element.isEnabled()){
-
-            waitTillElementClickable(clickRiskTripRBtn);
-            element.click();
-        }
+         waitTillElementClickable(clickRiskTripRBtn);
+         driver.findElement(clickRiskTripRBtn).click();
 
     }
-
-
-
-    public void waitTillElementLoaded(By element) {
-        new WebDriverWait(driver, 10L).until(ExpectedConditions.visibilityOfElementLocated(element));
-
-    }
-
-    public void waitTillElementClickable(By element){
-
-        new WebDriverWait(driver, 10L).until(ExpectedConditions.elementToBeClickable(element));
-
-    }
-
-    public void waitTillElementClickable(WebElement element){
-
-        new WebDriverWait(driver, 10L).until(ExpectedConditions.elementToBeClickable(element));
-
-    }
-
 
     public void waitTillSearchResultsAppear() {
 
         new WebDriverWait(driver,10L).until(ExpectedConditions.visibilityOfElementLocated(searchResultsFlightDetailCard));
 
+    }
+
+    public boolean isSearchResultsAppeared() {
+        return driver.findElement(searchResultsFlightDetailCard).isDisplayed();
     }
 }

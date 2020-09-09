@@ -3,6 +3,7 @@ package web.utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
+import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,6 +14,7 @@ public class TestBase {
 
     protected WebDriver driver;
     private String baseURL = "https://www.goibibo.com/";
+    protected SoftAssert softAssert;
 
 
     @BeforeSuite

@@ -30,11 +30,16 @@ public class FlightReservationTest extends TestBase {
         flightReservationFunction.selectFromDatePicker("15");
         flightReservationFunction.selecToDatePicker("17");
         flightReservationFunction.clickSearchBtn();
+
+        softAssert.assertTrue(flightReservationFunction.isSearchResultsAppeared());
+
         flightReservationFunction.clickPriceArrowSorting();
         flightReservationFunction.clickFlightSelectRadioButton();
         flightReservationFunction.clickBookBtn();
         flightReservationFunction.clickRiskTripRadioButton();
 
+
+        softAssert.assertAll();
 
         try {
             Thread.sleep(4000);

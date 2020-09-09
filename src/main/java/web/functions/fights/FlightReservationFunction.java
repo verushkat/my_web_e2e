@@ -1,19 +1,21 @@
 package web.functions.fights;
 
 import org.openqa.selenium.WebDriver;
+import web.functions.GUIFunctionBase;
 import web.pages.flights.FlightReservationPage;
 
 /**
  * Created by verushkat on 9/5/2020
  */
-public class FlightReservationFunction {
+public class FlightReservationFunction extends GUIFunctionBase {
 
     protected WebDriver driver;
     private FlightReservationPage flightReservationPage;
 
 
     public FlightReservationFunction(WebDriver driver){
-        this.driver = driver;
+
+        super(driver);
         flightReservationPage = new FlightReservationPage(this.driver);
     }
 
@@ -76,9 +78,9 @@ public class FlightReservationFunction {
     }
 
 
-
-
-
+    public boolean isSearchResultsAppeared() {
+        return flightReservationPage.isSearchResultsAppeared();
+    }
 }
 
 
