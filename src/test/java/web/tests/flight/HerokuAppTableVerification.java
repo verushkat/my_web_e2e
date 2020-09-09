@@ -25,7 +25,7 @@ public class HerokuAppTableVerification extends TestBase {
 
         List<String> rows = herokuAppFunction.getAllValuesFromTable();
         printRows(rows);
-        softAssert.assertEquals(rows.get(3),"Doe Jason jdoe@hotmail.com $100.00 http://www.jdoe.com edit delete");
+        softAssert.assertTrue(rows.get(3).contains("Doe Jason jdoe@hotmail.com $100.00 http://www.jdoe.com edit delete"));
         softAssert.assertAll();
 
 

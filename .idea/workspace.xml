@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="Task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/functions/heroku/HerokuAppFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/heroku/HerokuAppPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/utils/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/functions/fights/FlightReservationFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/functions/fights/FlightReservationFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/functions/hotels/HotelReservationFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/functions/hotels/HotelReservationFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/flights/FlightReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/flights/FlightReservationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/hotels/HotelReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/hotels/HotelReservationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/web/tests/flight/FlightReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/tests/flight/FlightReservationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/web/tests/hotels/HotelReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/tests/hotels/HotelReservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/web/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/utils/TestBase.class" afterDir="false" />
+    <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,8 +270,16 @@
       <workItem from="1599294833487" duration="32543000" />
       <workItem from="1599452143408" duration="15000" />
       <workItem from="1599541151938" duration="15452000" />
-      <workItem from="1599577742152" duration="15312000" />
+      <workItem from="1599577742152" duration="15567000" />
     </task>
+    <task id="LOCAL-00001" summary="Task 01">
+      <created>1599640877729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599640877729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +296,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 01" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -309,6 +307,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java</url>
           <line>38</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
